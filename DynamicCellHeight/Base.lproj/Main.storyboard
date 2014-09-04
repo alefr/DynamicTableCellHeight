@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="bGo-fP-37n">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Classic Dynamic Height Table View Controller-->
@@ -24,7 +23,7 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ncK-dO-3GA" userLabel="secondImage">
                                             <rect key="frame" x="160" y="8" width="160" height="160"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" secondItem="ncK-dO-3GA" secondAttribute="height" multiplier="1:1" id="Kqs-O6-MTd"/>
+                                                <constraint firstAttribute="height" constant="160" id="S7c-aM-LuM"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ald-CZ-h00" userLabel="name">
@@ -42,7 +41,7 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5X6-pR-jUt" userLabel="firstImage">
                                             <rect key="frame" x="0.0" y="8" width="160" height="160"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" secondItem="5X6-pR-jUt" secondAttribute="height" multiplier="1:1" id="yIm-SV-VNI"/>
+                                                <constraint firstAttribute="height" constant="160" id="lcb-gr-ZSx"/>
                                             </constraints>
                                         </imageView>
                                     </subviews>
