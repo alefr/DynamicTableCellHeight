@@ -36,18 +36,30 @@
     content1.numImages = @(85);
     
     DynamicContent *content2 = [DynamicContent new];
-    content2.firstImage = [UIImage imageNamed:@"sunset"];
-    content2.secondImage = [UIImage imageNamed:@"tuscany"];
-    content2.name = @"Thielska";
-    content2.numImages = @(25);
+    content2.firstImage = [UIImage imageNamed:@"apple250"];
+    content2.secondImage = [UIImage imageNamed:@"fox"];
+    content2.name = @"Fotografiska";
+    content2.numImages = @(20);
     
     DynamicContent *content3 = [DynamicContent new];
     content3.firstImage = [UIImage imageNamed:@"flower"];
-    content3.secondImage = [UIImage imageNamed:@"fox"];
-    content3.name = @"Fotografiska";
-    content3.numImages = @(20);
+    content3.secondImage = [UIImage imageNamed:@"leaf250"];
+    content3.name = @"Visualization center";
+    content3.numImages = @(35);
     
-    self.tableData = @[content1, content2, content3];
+    DynamicContent *content4 = [DynamicContent new];
+    content4.firstImage = [UIImage imageNamed:@"flower250"];
+    content4.secondImage = [UIImage imageNamed:@"apple250"];
+    content4.name = @"Louvre Museum";
+    content4.numImages = @(67);
+    
+    DynamicContent *content5 = [DynamicContent new];
+    content5.firstImage = [UIImage imageNamed:@"sunset"];
+    content5.secondImage = [UIImage imageNamed:@"tuscany"];
+    content5.name = @"Thielska";
+    content5.numImages = @(25);
+    
+    self.tableData = @[content1, content2, content3, content4, content5];
 }
 
 - (void)didReceiveMemoryWarning {
